@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Φιλοξενητής: 127.0.0.1
--- Χρόνος δημιουργίας: 25 Ιαν 2019 στις 12:28:20
+-- Χρόνος δημιουργίας: 26 Ιαν 2019 στις 00:13:04
 -- Έκδοση διακομιστή: 10.1.25-MariaDB
 -- Έκδοση PHP: 7.1.7
 
@@ -451,7 +451,7 @@ CREATE TABLE `registration` (
 --
 
 INSERT INTO `registration` (`id`, `username`, `email`, `password`) VALUES
-(1, 'esougela', 'elesoug@gmail.com', 'password'),
+(1, 'user1', 'user1@gmail.com', 'password'),
 (2, 'papadop', 'papadop@gmail.com', 'papad123'),
 (3, 'kakabas', 'kakabas@yahoo.com', 'kakabas'),
 (4, 'margarita', 'margarita@gmail.com', 'margarita123');
