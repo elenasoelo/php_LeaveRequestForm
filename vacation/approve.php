@@ -40,7 +40,7 @@ if($request==1){
 	}
 		$message2 = "Dear employee, your supervisor has $status your application submitted on $formattedsubmission_date. ";
 			
-	mail($email,"Leave Notification mail from the employee $username",$message2,"FROM: elsougela@yahoo.com");
+	mail($email,"Leave Notification mail from the employee $username",$message2,"FROM: admin@mail.com");
 	
 
 header('location: approve1.php');

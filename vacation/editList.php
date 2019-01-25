@@ -98,7 +98,7 @@ $last_id = mysqli_insert_id($db);
 		$formattedend_date = $myDateTime2->format('d-m-Y');
 		}
 	
-	$to="elsougela@yahoo.com";
+	$to="admin@mail.com";
 	$message1 = "Dear supervisor, employee $username requested for some time off, starting on
 $formattedstart_date and ending on $formattedend_date, stating the reason: $reason. Click on one the below link to approve or reject the application:
 http://localhost/vacation2/approve1.php Approved or Rejected";
